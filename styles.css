@@ -10,6 +10,13 @@ body {
   background-color: #3a484e;
 }
 
+.footer {
+  background-color: #3a484e;
+  padding: 18px;
+  color: white;
+  text-align: center;
+}
+
 button {
   padding: 24px;
   font-weight: bold;
@@ -38,10 +45,14 @@ button {
   align-items: flex-start;
 }
 
-a {
+ul a {
   color: white;
   text-decoration: none;
   font-size: 28px;
+}
+
+a{
+  color: white;
 }
 
 .container {
