@@ -19,6 +19,18 @@ button {
   flex: 0 0 auto;
 }
 
+.sign-up{
+  border: 2px solid white;
+  align-self: center;
+  width: 100px;
+  height: 50px;
+  padding: 6px;
+  border-radius: 1em;
+  background-color: #3882F6;
+  color: white;
+  font-size: 12px;
+}
+
 .header-link {
   display: flex;
   gap: 23px;
@@ -67,16 +79,43 @@ a {
   gap: 60px;
 }
 
-.body-three {
+.body-three, .body-four {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
-  background-color: lightgray;
 }
 
-.quote-container{
+.body-three {
+  background-color: lightgray;
+  height: 300px;
+}
+
+.body-four {
+  background-color: white;
+  height: 250px;
+}
+
+.body-four .center-container {
+  border-radius: 1em;
+  gap: 50px;
+  color: white;
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  background-color: #3882F6;
+  padding: 24px 96px;
+}
+
+.body-four .center-container p {
+  text-align: start;
+  font-weight: 300;
+}
+
+
+
+
+.center-container{
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -84,13 +123,13 @@ a {
   margin-right: 200px;
 }
 
-.quote-container p{
+.center-container p{
   text-align: end;
   font-weight: bold;
   font-size: 16px;
 }
 
-.quote-container .quotes{
+.center-container .quotes{
   color: #474b50;
   text-align: center;
   font-size: 28px;
