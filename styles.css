@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-  padding: 12px 24px;
+  padding: 24px 48px;
   display: flex;
   justify-content: space-between;
   background-color: #3a484e;
@@ -43,26 +43,19 @@ a {
 }
 
 .left-one {
-  align-items: center;
-  margin-top: 75px;
   display: flex;
+  align-items: flex-start;
+  margin-top: 75px;
   flex-direction: column;
-  margin-bottom: 200px;
-  margin-left: 150px;
+  margin-bottom: 150px;
+
 }
 
 .body-one {
   background-color: #3a484e;
   gap: 100px;
+  padding: 0px 200px;
   display: flex;
-}
-
-.body-one img {
-  border-radius: 30%;
-  margin-bottom: 20px;
-  width: 50%;
-  height: 50%;
-  padding: 24px;
 }
 
 .body-two {
@@ -72,6 +65,44 @@ a {
   display: flex;
   justify-content: center;
   gap: 60px;
+}
+
+.body-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: lightgray;
+}
+
+.quote-container{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.quote-container p{
+  text-align: end;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.quote-container .quotes{
+  color: #474b50;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.body-one img {
+  border-radius: 30%;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 50%;
+  padding: 24px;
 }
 
 .hero {
@@ -92,6 +123,10 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 250px;
+}
+
+.dog-container p {
+  font-size: larger;
 }
 
 .dog-container img {
